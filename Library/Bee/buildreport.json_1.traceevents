@@ -1,0 +1,632 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1729656920921070, "dur": 1575382, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1729656920921369, "dur": 16246, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1729656920937617, "dur": 77473, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1729656921015093, "dur": 435701, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1729656921450798, "dur": 1032737, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1729656922483538, "dur": 12913, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1729656922497001, "dur": 34, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1729656921304218, "dur": 122856, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1729656921305383, "dur": 50364, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1729656921408986, "dur": 5373, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1729656921414362, "dur": 12705, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1729656921415120, "dur": 11202, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1729656921432043, "dur": 1529, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1729656921431152, "dur": 2443, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1729656922497150, "dur": 245, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1729656921520297, "dur":1531, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656921521837, "dur":149, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1729656921522039, "dur":33, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1729656921522072, "dur":371, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1729656921522471, "dur":679, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656921523150, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466398, "dur":411, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466809, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466823, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466826, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466835, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466837, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466842, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466843, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466847, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466849, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466854, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466856, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466860, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466861, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466866, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466868, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466873, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466875, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466879, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466880, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466885, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466886, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466890, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466892, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466896, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466918, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922466941, "dur":2940, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1729656921522736, "dur":443, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729656921523179, "dur":4400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729656921527588, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1729656921527654, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729656921530343, "dur":232022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1729656921762387, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921762563, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729656921762570, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921764900, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921765057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729656921765065, "dur":5228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921770347, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921770501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729656921770509, "dur":4685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921775284, "dur":906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921776194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729656921776201, "dur":4121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921780380, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921780485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729656921780492, "dur":10148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921790719, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921790829, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729656921790937, "dur":3068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921794062, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921794130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729656921794137, "dur":4964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921799194, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921799312, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729656921799319, "dur":3422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921802790, "dur":5597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921808392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729656921809467, "dur":2207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729656921811727, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1729656921811782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729656921811793, "dur":2079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1729656921813930, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1729656921813985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729656921813992, "dur":5100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1729656921819152, "dur":647247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921522685, "dur":475, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921523163, "dur":4410, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921527589, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1729656921527597, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921529661, "dur":305, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1729656921529970, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1729656921530020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921530380, "dur":2598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1729656921532979, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1729656921533008, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921533679, "dur":18425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1729656921552123, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1729656921552158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921552166, "dur":56481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1729656921608665, "dur":39219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr.exe" }}
+,{ "pid":12345, "tid":2, "ts":1729656921647889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921647897, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr.exe" }}
+,{ "pid":12345, "tid":2, "ts":1729656921650680, "dur":4339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921655023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921655031, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921656001, "dur":3967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921659971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921659997, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921660934, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921661138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921661146, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921662109, "dur":5513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921667625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921667631, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921668725, "dur":5689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921674448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921674456, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921675795, "dur":5579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921681378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921681384, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921682690, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921682994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921683000, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921684132, "dur":6316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921690453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921690461, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921691454, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921691582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921691587, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921692567, "dur":5672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921698261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921698267, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921699323, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921699430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921699435, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921700265, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921700383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921700388, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921701464, "dur":5751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921707220, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921707231, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921708418, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921708699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921708706, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921709970, "dur":6395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921716369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921716377, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921717705, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921717834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921717839, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921719519, "dur":6029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921725553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921725562, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921726788, "dur":8454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921735246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921735255, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921736966, "dur":1222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921738192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921738199, "dur":1753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921739993, "dur":9918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921749916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921749932, "dur":3221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921753205, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921753441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921753449, "dur":3149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921756646, "dur":774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921757424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921757432, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921758926, "dur":711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921759641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921759648, "dur":2812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921762516, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921762661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921762668, "dur":3551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921766269, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921766407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921766414, "dur":4979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921771450, "dur":911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921772387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921772395, "dur":4427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921776877, "dur":527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921777408, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921777419, "dur":3575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921781062, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921781489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921781495, "dur":4346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921785894, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921786007, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921786014, "dur":5648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921791766, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921791814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921791821, "dur":6175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921798053, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921798111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921798118, "dur":3210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921801374, "dur":42298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921843678, "dur":131, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729656921843820, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729656921845172, "dur":621241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921522725, "dur":446, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921523171, "dur":4410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921527587, "dur":21804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1729656921549395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921549409, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1729656921550555, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1729656921550580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921550585, "dur":110808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1729656921661416, "dur":5070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921666493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921666503, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921667888, "dur":5388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921673281, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921673290, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921674526, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921674675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921674682, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921676034, "dur":5757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921681794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921681799, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921683079, "dur":1404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921684487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921684494, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921686171, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921686352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921686360, "dur":1603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921687995, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921688213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921688219, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921689175, "dur":6428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921695609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921695616, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921696661, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921696799, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921696806, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921697723, "dur":5512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921703240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921703248, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921704380, "dur":5439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921709823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921709831, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921711014, "dur":4911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921715929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921715936, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921717362, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921717568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921717575, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921719133, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921719426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921719433, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921720576, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921720733, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921720739, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921721650, "dur":4708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921726361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921726369, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921727643, "dur":8158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921735805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921735813, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921737274, "dur":11744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921749022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921749030, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921750705, "dur":13048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921763757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921763765, "dur":5370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921769184, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921769326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921769334, "dur":2923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921772312, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921772667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921772675, "dur":2741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921775483, "dur":1389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921776876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921776884, "dur":3691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921780630, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921780725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921780732, "dur":10505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921791318, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921791430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921791436, "dur":9091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921800576, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/CFXRDemo.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921800763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921800771, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/CFXRDemo.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729656921803296, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1729656921803357, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921803363, "dur":4997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1729656921808428, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1729656921808495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921808504, "dur":5229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1729656921813821, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1729656921813882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921813951, "dur":4603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1729656921818660, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1729656921819001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729656921819008, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1729656921820891, "dur":645519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921522771, "dur":418, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921523189, "dur":4407, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921527596, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1729656921528074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921537492, "dur":202034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1729656921739553, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921739800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921739807, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921741309, "dur":9994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921751307, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921751328, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921753477, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921753685, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921753692, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921756233, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921756393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921756400, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921757810, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921758289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921758296, "dur":2035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921760386, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921760639, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921760646, "dur":2366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921763088, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921763288, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921763295, "dur":6965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921770316, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921770573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921770580, "dur":3347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921773983, "dur":581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921774568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921774576, "dur":3631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921778266, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921778364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921778371, "dur":7050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921785522, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921785722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921785732, "dur":5808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921791611, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921791788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921791796, "dur":6336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921798181, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921798237, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921798243, "dur":4583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729656921802906, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":4, "ts":1729656921802984, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921804286, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":4, "ts":1729656921805531, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1729656921805619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921805625, "dur":12324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1729656921818006, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1729656921818292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729656921818301, "dur":2231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1729656921820587, "dur":645809, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729656921522808, "dur":387, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729656921523195, "dur":4400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729656921527595, "dur":34864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1729656921562462, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729656921562477, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1729656921563451, "dur":497145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729656922060602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729656922060701, "dur":3417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729656922064137, "dur":402264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921522847, "dur":351, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921523198, "dur":4379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921527589, "dur":20968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1729656921548561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921548577, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1729656921549762, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1729656921549795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921549803, "dur":201435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1729656921751282, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921751594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921751602, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921753593, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921753746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921753777, "dur":2015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921755850, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921756026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921756033, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921757494, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921757711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921757718, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921759527, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921759576, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921759583, "dur":2170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921761809, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921761966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921761973, "dur":3573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921765599, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921765746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921765754, "dur":4794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921770661, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921770806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921770813, "dur":2847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921773715, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921773855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921773863, "dur":3786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921777705, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921777809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921777816, "dur":12979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921790839, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921790934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921790942, "dur":3250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921794242, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921794347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921794731, "dur":5845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921800623, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921800879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921800887, "dur":2212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729656921803160, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1729656921803236, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921803465, "dur":1872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1729656921805385, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1729656921805463, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729656921805469, "dur":57050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1729656921862577, "dur":603867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921522893, "dur":312, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921523205, "dur":4369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921527589, "dur":108564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1729656921636158, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921636606, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1729656921637441, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921637607, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921637778, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921638676, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921638797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921638847, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921639622, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921639739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921639744, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921641341, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921641513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921641521, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921642458, "dur":6031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921648492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921648499, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921649350, "dur":4728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921654082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921654089, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921654934, "dur":4154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921659093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921659101, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921660743, "dur":6003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921666751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921666758, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921668279, "dur":6491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921674774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921674782, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921676308, "dur":4789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921681102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921681110, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921682453, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921682630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921682637, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921683956, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921684370, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921684377, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921685659, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921685803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921685808, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921686783, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921687005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921687010, "dur":1301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921688344, "dur":5750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921694098, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921694110, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921695219, "dur":5370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921700593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921700600, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921701753, "dur":5886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921707645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921707653, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921708758, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921709095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921709103, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921710229, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921710456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921710463, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921711474, "dur":5256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921716733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921716739, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921718002, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921718194, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921718201, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921719666, "dur":6140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921725837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921725845, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921727264, "dur":8168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921735436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921735445, "dur":1680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921737180, "dur":11279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921748464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921748473, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921749631, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921749978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921750014, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921752923, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921753121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921753128, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921754861, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921755110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921755117, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921757724, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921757947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921757954, "dur":2463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921760467, "dur":528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921760999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921761006, "dur":3878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921764931, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921765208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921765215, "dur":5821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921771096, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921771263, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921771306, "dur":2963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921774341, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921774488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921774495, "dur":2741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921777288, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921777413, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921777420, "dur":4187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921781658, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921781762, "dur":61, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921781845, "dur":9017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921790918, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921790979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921790987, "dur":3870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921794932, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921794987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921794994, "dur":5513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921800560, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921800801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921800808, "dur":2212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729656921803073, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1729656921803495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921804312, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1729656921806267, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1729656921806448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921806455, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1729656921807815, "dur":19497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1729656921827320, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729656921827334, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1729656921828944, "dur":637450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729656921522919, "dur":295, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729656921523214, "dur":4362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729656921527589, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1729656921527999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729656921537315, "dur":2424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1729656921539753, "dur":26653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1729656921566409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729656921566417, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1729656921567392, "dur":889364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729656922456762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729656922456770, "dur":9557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729656922466350, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1729656922466359, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729656921522944, "dur":276, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729656921523220, "dur":4372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729656921527592, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1729656921527857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729656921530406, "dur":17936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1729656921548359, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1729656921548390, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729656921548442, "dur":3682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1729656921552138, "dur":337937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1729656921890092, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729656921890465, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1729656921891810, "dur":574625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729656921522976, "dur":246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729656921523222, "dur":4367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729656921527590, "dur":20736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1729656921548337, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729656921548353, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1729656921549707, "dur":57467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1729656921607177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729656921607185, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1729656921608104, "dur":235056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1729656921843197, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729656921843209, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1729656921845642, "dur":620812, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729656921523003, "dur":225, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729656921523228, "dur":4354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729656921527589, "dur":546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1729656921528139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729656921537897, "dur":73607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1729656921611520, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1729656921611545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729656921611777, "dur":212897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1729656921824703, "dur":641700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729656921523029, "dur":201, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729656921523231, "dur":4352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729656921527588, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1729656921527936, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729656921536948, "dur":191468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1729656921728441, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921728608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729656921728615, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921729604, "dur":7120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921736728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729656921736736, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921737853, "dur":11317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921749174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729656921749183, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921752174, "dur":17830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921770008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729656921770016, "dur":6223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921776292, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921776347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729656921776378, "dur":3784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921780308, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921780474, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729656921780483, "dur":10318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921790853, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921791054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729656921791069, "dur":8257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921799371, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/KinoBloom.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921799579, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729656921799586, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Managed/KinoBloom.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921801702, "dur":11491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921813198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729656921813399, "dur":2256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729656921815722, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1729656921815811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729656921815819, "dur":4325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ngel/Documents/Virtual/Apk 2/vr_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1729656921820195, "dur":646203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729656922471724, "dur":2102, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1729656922497529, "dur": 1244, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1729656922496976, "dur": 1827, "ph": "X", "name": "Write chrome-trace events", "args": {} },
